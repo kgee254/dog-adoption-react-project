@@ -1,13 +1,7 @@
-import { useState } from 'react'
-import './App.css'
+import Dogs from './pages/Dogs.jsx'
 
 function App() {
-
-  return (
-    <>
-      
-    </>
-  )
+  return <Dogs />
 }
 
 export default App
