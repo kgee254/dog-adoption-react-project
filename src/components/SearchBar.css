@@ -1,0 +1,28 @@
+.searchbar-container { 
+  max-width: 600px; 
+  margin: 0 auto 40px auto; 
+  padding: 0 20px; 
+}
+
+.searchbar-input { 
+  width: 100%; 
+  padding: 14px 20px; 
+  border-radius: 16px; 
+  border: 1px solid #E8E1D8; 
+  background-color: #FFFFFF; 
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1rem; 
+  color: #3D3A36; 
+  outline: none; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04); 
+  transition: all 0.2s ease; 
+}
+
+.searchbar-input::placeholder { 
+  color: #8A847F; 
+}
+
+.searchbar-input:focus { 
+  border-color: #7A8450; 
+  box-shadow: 0 0 0 3px rgba(122, 132, 80, 0.15); 
+}

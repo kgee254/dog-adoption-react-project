@@ -1,0 +1,37 @@
+.adddog-card { 
+  max-width: 600px; 
+}
+
+.form-file { 
+  width: 100%; 
+  padding: 10px; 
+  border-radius: 12px; 
+  border: 1px solid #E8E1D8; 
+  font-family: 'Poppins', sans-serif; 
+  background-color: #FDF8F3; 
+  cursor: pointer; 
+}
+
+.form-file::file-selector-button { 
+  background-color: #7A8450; 
+  color: white; 
+  border: none; 
+  padding: 8px 16px; 
+  border-radius: 8px; 
+  margin-right: 12px; 
+  cursor: pointer; 
+  font-weight: 600; 
+}
+
+.form-file::file-selector-button:hover {
+  background-color: #6B7346; 
+}
+
+.image-preview { 
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 16px; 
+  margin: 10px 0;
+  border: 2px solid #E8E1D8;
+}
